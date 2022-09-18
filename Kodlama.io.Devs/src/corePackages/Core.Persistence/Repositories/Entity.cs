@@ -1,4 +1,6 @@
-﻿namespace Core.Persistence.Repositories;
+﻿using System.Numerics;
+
+namespace Core.Persistence.Repositories;
 
 public class Entity
 {

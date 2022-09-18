@@ -119,7 +119,8 @@ public class EfRepositoryBase<TEntity, TContext> : IAsyncRepository<TEntity>, IR
 
     public TEntity Update(TEntity entity)
     {
-        Context.Entry(entity).State = EntityState.Modified;
+        var myEntity = Context.Entry(entity);
+        myEntity.State = EntityState.Modified;
         Context.SaveChanges();
         return entity;
     }
