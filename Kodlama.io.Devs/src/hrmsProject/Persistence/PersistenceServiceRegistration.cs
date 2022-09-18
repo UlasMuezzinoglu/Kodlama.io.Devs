@@ -16,6 +16,8 @@ namespace Persistence
                                                      options.UseSqlServer(
                                                          configuration.GetConnectionString("HrmsProjectConnectionString")));
             services.AddScoped<IProgrammingLanguageEntityRepository, ProgrammingLanguageEntityRepository>();
+            services.AddScoped<ITechnologyEntityRepository, TechnologyEntityRepository>();
+
 
             return services;
         }
