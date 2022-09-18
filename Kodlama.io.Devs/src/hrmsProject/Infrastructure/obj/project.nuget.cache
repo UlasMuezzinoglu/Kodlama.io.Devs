@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VI2QuzYWY8ruqecZDz79B9VjzoL9g/zgudBM5IiyHvjhCMblcQAWa54P9mTfRrzqCxb7HSuWj6eWC/fyJjEKmw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ulaş\\source\\repos\\Kodlama.io.Devs\\Kodlama.io.Devs\\src\\hrmsProject\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ulaş\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
