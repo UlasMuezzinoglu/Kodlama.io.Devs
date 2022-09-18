@@ -1,4 +1,5 @@
-﻿using Application.Features.programmingLanguage.Rules;
+﻿using Application.Features.Developer.Rules;
+using Application.Features.programmingLanguage.Rules;
 using Application.Features.Technology.Rules;
 using Core.Application.Pipelines.Validation;
 using FluentValidation;
@@ -18,6 +19,9 @@ namespace Application
 
             services.AddScoped<ProgrammingRulesBusinessRules>();
             services.AddScoped<TechnologyBusinessRules>();
+            services.AddScoped<DeveloperBusinessRules>();
+
+
 
 
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());

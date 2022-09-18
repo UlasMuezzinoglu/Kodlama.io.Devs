@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6NeEZfLS0386y1aAJm69Omay5D+joaC6Y4drzuq3+j2HZk5ojEYR+/dN07VKNyZGRlge+d4BCuPkhwJzv0JzoQ==",
+  "dgSpecHash": "NccIgCfUleuZ5XF63PC5cow9QzErtFIMxZc+GLYDxIldDrhe7woox6as55jMnmo2NYJB43AeM8QATHA7ONZTZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ulaş\\source\\repos\\Kodlama.io.Devs\\Kodlama.io.Devs\\src\\hrmsProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ulaş\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Ulaş\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
-    "C:\\Users\\Ulaş\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
-    "C:\\Users\\Ulaş\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.6\\fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
+    "C:\\Users\\Ulaş\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\Ulaş\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\Ulaş\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Ulaş\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\Ulaş\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

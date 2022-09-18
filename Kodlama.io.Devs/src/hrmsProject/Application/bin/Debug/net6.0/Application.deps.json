@@ -13,6 +13,7 @@
           "Core.CrossCuttingConcerns": "1.0.0",
           "Core.Persistence": "1.0.0",
           "Domain": "1.0.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.2.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1"
         },
         "runtime": {
@@ -42,23 +43,23 @@
           }
         }
       },
-      "FluentValidation/10.3.6": {
+      "FluentValidation/11.2.1": {
         "runtime": {
           "lib/net6.0/FluentValidation.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.3.6.0"
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.2.1.0"
           }
         }
       },
-      "FluentValidation.DependencyInjectionExtensions/10.3.6": {
+      "FluentValidation.DependencyInjectionExtensions/11.2.1": {
         "dependencies": {
-          "FluentValidation": "10.3.6",
+          "FluentValidation": "11.2.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
           "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.3.6.0"
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.2.1.0"
           }
         }
       },
@@ -963,8 +964,8 @@
         "dependencies": {
           "Core.CrossCuttingConcerns": "1.0.0",
           "Core.Security": "1.0.0",
-          "FluentValidation": "10.3.6",
-          "FluentValidation.DependencyInjectionExtensions": "10.3.6",
+          "FluentValidation": "11.2.1",
+          "FluentValidation.DependencyInjectionExtensions": "11.2.1",
           "MediatR": "10.0.1",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Caching.Abstractions": "6.0.0"
@@ -975,7 +976,7 @@
       },
       "Core.CrossCuttingConcerns/1.0.0": {
         "dependencies": {
-          "FluentValidation": "10.3.6",
+          "FluentValidation": "11.2.1",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Serilog": "2.10.0",
@@ -1009,7 +1010,8 @@
       },
       "Domain/1.0.0": {
         "dependencies": {
-          "Core.Persistence": "1.0.0"
+          "Core.Persistence": "1.0.0",
+          "Core.Security": "1.0.0"
         },
         "runtime": {
           "Domain.dll": {}
@@ -1037,19 +1039,19 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/11.0.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512"
     },
-    "FluentValidation/10.3.6": {
+    "FluentValidation/11.2.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iMd370ZDx6ydm8t7bIFdRbSKX0e42lpvCtifUSbTSXOk5iKjmgl7HU0PXBhIWQAyIRi3gCwfMI9luj8H6K+byw==",
-      "path": "fluentvalidation/10.3.6",
-      "hashPath": "fluentvalidation.10.3.6.nupkg.sha512"
+      "sha512": "sha512-ZrQD0TGd0mHqf/zErZOEaba8cBeInaJj02nqinO+0La3uE08sJ5ScTYqsCbdx9fLHsX8rh+5KH5RtL2eOUS+OA==",
+      "path": "fluentvalidation/11.2.1",
+      "hashPath": "fluentvalidation.11.2.1.nupkg.sha512"
     },
-    "FluentValidation.DependencyInjectionExtensions/10.3.6": {
+    "FluentValidation.DependencyInjectionExtensions/11.2.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yMwmbr+sHP/VLRQPTBVcgbJmtP5PGmxzNsqVX7FccDRwDB2edP8XsXWLNTZ4UwrslU1qQUD07BNQLDh7WXzpNw==",
-      "path": "fluentvalidation.dependencyinjectionextensions/10.3.6",
-      "hashPath": "fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512"
+      "sha512": "sha512-WqR2kt0OidUCg9xS+YOoiDmdCu7EnYLLgQb/bX+5fTTVor+90dWmr1OdJaWlLZvg2nbwV9EfxA9FZp91+JmQtg==",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.2.1",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512"
     },
     "MediatR/10.0.1": {
       "type": "package",

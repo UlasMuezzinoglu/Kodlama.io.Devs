@@ -384,6 +384,10 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.1, )"
@@ -439,6 +443,9 @@
             "projectReferences": {
               "C:\\Users\\Ulaş\\source\\repos\\Kodlama.io.Devs\\Kodlama.io.Devs\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
                 "projectPath": "C:\\Users\\Ulaş\\source\\repos\\Kodlama.io.Devs\\Kodlama.io.Devs\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj"
+              },
+              "C:\\Users\\Ulaş\\source\\repos\\Kodlama.io.Devs\\Kodlama.io.Devs\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
+                "projectPath": "C:\\Users\\Ulaş\\source\\repos\\Kodlama.io.Devs\\Kodlama.io.Devs\\src\\corePackages\\Core.Security\\Core.Security.csproj"
               }
             }
           }

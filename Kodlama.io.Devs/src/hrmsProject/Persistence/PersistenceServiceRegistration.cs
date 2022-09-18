@@ -1,4 +1,5 @@
 ﻿using Application.Services.Repositories;
+using Core.Security.JWT;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,9 +15,12 @@ namespace Persistence
         {
             services.AddDbContext<BaseDbContext>(options =>
                                                      options.UseSqlServer(
-                                                         configuration.GetConnectionString("HrmsProjectConnectionString")));
+                                                         configuration.GetConnectionString("HrmsProjectConnectionString")), (ServiceLifetime.Transient));
             services.AddScoped<IProgrammingLanguageEntityRepository, ProgrammingLanguageEntityRepository>();
             services.AddScoped<ITechnologyEntityRepository, TechnologyEntityRepository>();
+            services.AddScoped<IUserEntityRepository, UserEntityRepository>();
+            services.AddScoped<IDeveloperEntityRepository, DeveloperEntityRepository>();
+            services.AddScoped<ITokenHelper, JwtHelper>();
 
 
             return services;
